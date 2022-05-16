@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography';
 const theme = createTheme({
   palette: {
     primary: { main: '#000000' },
+    secondary: { main: '#524F4E' },
   },
   typography: {
     fontFamily: ['baskerville'],
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="fixed" color="primary">
+        <AppBar position="fixed">
           <Typography
             variant="h3"
             component="div"
@@ -28,7 +29,7 @@ const Navbar = () => {
           >
             Joe Deering
           </Typography>
-          <Toolbar color="black">
+          <Toolbar>
             <Typography
               variant="h6"
               component="div"
@@ -40,7 +41,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="class"
+                className="hover:scale-150"
               >
                 About
               </Link>
@@ -49,7 +50,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="class"
+                className="hover:scale-150"
               >
                 Projects
               </Link>
@@ -58,7 +59,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="class"
+                className="hover:scale-150"
               >
                 Skills
               </Link>
@@ -67,7 +68,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                className="class"
+                className="hover:scale-150"
               >
                 Contact
               </Link>
