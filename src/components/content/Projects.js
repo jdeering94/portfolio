@@ -68,7 +68,7 @@ const Projects = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="flex justify-around font-baskerville" id="projects">
-        <h1 className="m-10 p-10">Projects</h1>
+        <h1 className="m-10 p-10 text-4xl py-36">Projects</h1>
         <Splide
           aria-labelledby="Sample Projects"
           options={{

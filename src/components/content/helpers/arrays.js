@@ -24,17 +24,17 @@ const icons = [
   ),
   createIcon(
     4,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
     'MongoDB'
   ),
   createIcon(
     5,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
     'PosgreSQL'
   ),
   createIcon(
     6,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
     'Python'
   ),
   createIcon(
@@ -44,7 +44,7 @@ const icons = [
   ),
   createIcon(
     8,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
     'HTML5'
   ),
   createIcon(
@@ -59,7 +59,7 @@ const icons = [
   ),
   createIcon(
     11,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     'React'
   ),
   createIcon(
@@ -69,17 +69,17 @@ const icons = [
   ),
   createIcon(
     13,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg',
     'Tailwind CSS'
   ),
   createIcon(
     14,
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg',
-    'Adobe Premier Pro'
+    'Premier Pro'
   ),
   createIcon(
     15,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg',
     'Trello'
   ),
   createIcon(
@@ -89,8 +89,13 @@ const icons = [
   ),
   createIcon(
     17,
-    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg',
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
     'GitHub'
+  ),
+  createIcon(
+    18,
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
+    'Heroku'
   ),
 ];
 
