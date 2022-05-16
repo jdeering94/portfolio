@@ -18,7 +18,8 @@ import songToFilmImage from '../../assets/song-to-film-homepage.png';
 const work = [
   {
     id: 1,
-    name: "Shaq's Free Throw Nightmare",
+    // eslint-disable-next-line quotes
+    name: "Shaq's Free Throw Nightmare - Solo 7 Days",
     image: shaqImage,
     live: 'https://jdeering94.github.io/Shaq-s-Free-Throw-Nightmare/',
     repo: 'https://github.com/jdeering94/Shaq-s-Free-Throw-Nightmare',
@@ -27,7 +28,7 @@ const work = [
   },
   {
     id: 2,
-    name: 'Pub Quiz Generator',
+    name: 'Pub Quiz Generator - Duo 48hrs',
     image: pubImage,
     live: 'https://pub-quiz-generator-ga-sei62.netlify.app/',
     repo: 'https://github.com/jdeering94/Pub-Quiz-Generator',
@@ -36,7 +37,7 @@ const work = [
   },
   {
     id: 3,
-    name: 'Cinemap',
+    name: 'Cinemap - Trio 7 Days',
     image: cinemapImage,
     live: 'https://cinemap.netlify.app/',
     repo: 'https://github.com/jdeering94/cinemap-api',
@@ -45,7 +46,7 @@ const work = [
   },
   {
     id: 4,
-    name: 'Song to Film',
+    name: 'Song to Film - Solo 7 Days',
     image: songToFilmImage,
     live: 'https://song-to-film.netlify.app/',
     repo: 'https://github.com/jdeering94/song-to-film-api',
@@ -56,7 +57,7 @@ const work = [
 
 const Projects = () => {
   return (
-    <div className="flex justify-around" id="projects">
+    <div className="flex justify-around font-baskerville" id="projects">
       <h1 className="m-10 p-10">Projects</h1>
       <Splide
         aria-labelledby="Sample Projects"
