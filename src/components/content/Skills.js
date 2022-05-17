@@ -5,7 +5,7 @@ console.log(icons[0].src);
 
 const Skills = () => {
   return (
-    <div className="flex justify-around font-baskerville container mx-20">
+    <div className="flex justify-around font-baskerville container m-20">
       <h1 id="skills" className="text-4xl inset-0 py-24">
         Skills
       </h1>

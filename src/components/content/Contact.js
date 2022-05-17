@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="m-10 flex container justify-center font-baskerville"
+      className="m-10 flex container justify-center font-baskerville mt-24"
     >
       {/* <h1 id="contact">Contact Me</h1> */}
       <p className="flex justify-center mx-5 hover:scale-150">

@@ -63,7 +63,7 @@ const Projects = () => {
         options={{
           rewind: true,
           width: 800,
-          height: 700,
+          height: 625,
           interval: 4000,
           autoplay: true,
           perMove: 1,
