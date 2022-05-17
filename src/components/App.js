@@ -13,7 +13,7 @@ const theme = createTheme({
     secondary: { main: '#524F4E' },
   },
   typography: {
-    fontFamily: ['baskerville'],
+    fontFamily: ['Baskerville'],
   },
 });
 
