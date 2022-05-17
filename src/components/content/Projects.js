@@ -11,7 +11,7 @@ import {
   Typography,
 } from '@mui/material';
 import shaqImage from '../../assets/shaq-startscreen.png';
-import pubImage from '../../assets/homepage-image.jpeg';
+import pubImage from '../../assets/pub-quiz-homepage.png';
 import cinemapImage from '../../assets/cinemap-home.png';
 import songToFilmImage from '../../assets/song-to-film-homepage.png';
 
@@ -28,12 +28,12 @@ const work = [
   },
   {
     id: 2,
-    name: 'Pub Quiz Generator - Duo 48hrs',
+    name: 'Pub Quiz Generator - Pair Programming 48hrs',
     image: pubImage,
     live: 'https://pub-quiz-generator-ga-sei62.netlify.app/',
     repo: 'https://github.com/jdeering94/Pub-Quiz-Generator',
     description:
-      'Built using React and a public trivia API from API Ninjas. Paired up, we had 48 hours to make a working front end for an available API. We decided to make a quiz generator from an API that has access to a large number of questions. We split up the responsibilities, working on both SCSS and API integration using React.',
+      'Built using React and a trivia API from API Ninjas. Paired up, we had 48 hours to make a working front end for an API. We decided to make a quiz generator from an API that contains thousands of questions. We split up the responsibilities, working on both SCSS and API integration using React.',
   },
   {
     id: 3,
@@ -74,7 +74,7 @@ const Projects = () => {
           options={{
             rewind: true,
             width: 800,
-            height: 600,
+            height: 700,
             interval: 4000,
             autoplay: true,
             perMove: 1,
@@ -87,7 +87,7 @@ const Projects = () => {
               <Card sx={{ maxWidth: 700 }}>
                 <CardMedia
                   component="img"
-                  alt="green iguana"
+                  alt={project.name}
                   height="300"
                   image={project.image}
                 />
@@ -95,7 +95,7 @@ const Projects = () => {
                   <Typography gutterBottom variant="h5" component="div">
                     {project.name}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body1" color="text.primary">
                     {project.description}
                   </Typography>
                 </CardContent>

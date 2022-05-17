@@ -2,7 +2,10 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="flex about justify-around m-20 font-baskerville" id="about">
+    <div
+      className="flex about justify-around font-baskerville mt-36 mb-20"
+      id="about"
+    >
       <h1 className="m-10 h-3/6 text-4xl py-16">About</h1>
       <p className="w-1/2 m-10">
         Growing up I have always been technically minded and have had a passion

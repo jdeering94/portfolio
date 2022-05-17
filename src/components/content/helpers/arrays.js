@@ -97,6 +97,11 @@ const icons = [
     'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
     'Heroku'
   ),
+  createIcon(
+    19,
+    'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+    'VS Code'
+  ),
 ];
 
 export default icons;

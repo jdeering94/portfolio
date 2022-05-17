@@ -29,6 +29,14 @@ const Navbar = () => {
           >
             Joe Deering
           </Typography>
+          <Typography
+            variant="h5"
+            component="div"
+            sx={{ flexGrow: 1 }}
+            className="flex justify-center"
+          >
+            Junior Developer
+          </Typography>
           <Toolbar>
             <Typography
               variant="h6"
@@ -41,7 +49,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-125}
+                offset={-200}
                 className="hover:scale-150"
               >
                 About
@@ -51,7 +59,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-125}
+                offset={-175}
                 className="hover:scale-150"
               >
                 Projects
@@ -61,7 +69,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-125}
+                offset={-200}
                 className="hover:scale-150"
               >
                 Skills
@@ -71,7 +79,7 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-125}
+                offset={-175}
                 className="hover:scale-150"
               >
                 Contact
