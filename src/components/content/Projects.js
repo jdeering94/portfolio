@@ -1,5 +1,4 @@
 import React from 'react';
-import { ThemeProvider, createTheme } from '@mui/material/styles/';
 import '@splidejs/react-splide/css/sea-green';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import {
@@ -55,64 +54,53 @@ const work = [
   },
 ];
 
-const theme = createTheme({
-  palette: {
-    primary: { main: '#000000' },
-  },
-  typography: {
-    fontFamily: ['baskerville'],
-  },
-});
-
 const Projects = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <div className="flex justify-around font-baskerville" id="projects">
-        <h1 className="m-10 p-10 text-4xl py-36">Projects</h1>
-        <Splide
-          aria-labelledby="Sample Projects"
-          options={{
-            rewind: true,
-            width: 800,
-            height: 700,
-            interval: 4000,
-            autoplay: true,
-            perMove: 1,
-            type: 'fade',
-            pauseOnHover: true,
-          }}
-        >
-          {work.map((project) => (
-            <SplideSlide key={project.id}>
-              <Card sx={{ maxWidth: 700 }}>
-                <CardMedia
-                  component="img"
-                  alt={project.name}
-                  height="300"
-                  image={project.image}
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    {project.name}
-                  </Typography>
-                  <Typography variant="body1" color="text.primary">
-                    {project.description}
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="large">
-                    <a href={project.live}>Live</a>
-                  </Button>
-                  <Button size="large">
-                    <a href={project.repo}>Repo</a>
-                  </Button>
-                </CardActions>
-              </Card>
-            </SplideSlide>
-          ))}
-        </Splide>
-      </div>
-    </ThemeProvider>
+    <div className="flex justify-around font-baskerville" id="projects">
+      <h1 className="m-10 p-10 text-4xl py-36">Projects</h1>
+      <Splide
+        aria-labelledby="Sample Projects"
+        options={{
+          rewind: true,
+          width: 800,
+          height: 700,
+          interval: 4000,
+          autoplay: true,
+          perMove: 1,
+          type: 'fade',
+          pauseOnHover: true,
+        }}
+      >
+        {work.map((project) => (
+          <SplideSlide key={project.id}>
+            <Card sx={{ maxWidth: 700 }}>
+              <CardMedia
+                component="img"
+                alt={project.name}
+                height="300"
+                image={project.image}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  {project.name}
+                </Typography>
+                <Typography variant="body1" color="text.primary">
+                  {project.description}
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="large">
+                  <a href={project.live}>Live</a>
+                </Button>
+                <Button size="large">
+                  <a href={project.repo}>Repo</a>
+                </Button>
+              </CardActions>
+            </Card>
+          </SplideSlide>
+        ))}
+      </Splide>
+    </div>
   );
 };
 
